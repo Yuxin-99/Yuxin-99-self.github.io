@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+
+.nav{
+    width: 350px;
+    height: auto;
+    /* background-color: beige; */
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    /* width: 100%; */
+    height: 90%;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: rgb(144, 202, 250);
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    transition: 280ms;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color: rgb(144, 202, 250);
+    width: 100%;
+}
+
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 75%;
+}
+
+.content{
+    position: absolute;
+    width: 900px;
+    min-height: 500px;
+    height: auto;
+    /* background-color: rgb(248, 170, 218, 0.75); */
+    right: 0;
+    top: 20%;
+}
+
+.home{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    color: rgb(144, 202, 250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home h1{
+    font-size: 95px;
+    padding-right: 90px;
+    border-bottom: 1px solid rgb(144, 202, 250);
+    text-transform: uppercase;
+}
+.home h3{
+    font-size: 28px;
+    padding: 5px 0;
+    opacity: 0.8;
+}
+
+.aboutme{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    color: rgb(28, 60, 148);
+    font-family: century gothic;
+    padding: 0 0px;
+    display: none;
+}
+
+.aboutme p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+
+}
+
+.myPicture{
+    background-image: url(../Image/Yuxin.jpg);
+    width: 850px;
+    height: 685px;
+    top: -50px;
+}
+
+.portfolio{
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    color: rgb(28, 60, 148);
+    font-family: century gothic;
+    padding: 0 60px;
+    display: none;
+}
+
+.portfolio p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+
+}
