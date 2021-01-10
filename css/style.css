@@ -95,7 +95,7 @@ a.active, .nav a:hover{
     position: absolute;
     right: 0;
     bottom: -30px;
-    color: rgb(28, 60, 148);
+    color: rgb(79, 152, 212);
     font-family: century gothic;
     padding: 0 0px;
     display: none;
@@ -111,23 +111,87 @@ a.active, .nav a:hover{
 .myPicture{
     background-image: url(../Image/Yuxin.JPG);
     width: 880px;
-    height: 650px;
+    height: 666px;
     top: -50px;
 }
 
 .portfolio{
     position: absolute;
     right: 200px;
-    top: 10px;
-    color: rgb(28, 60, 148);
-    font-family: century gothic;
+    color:rgb(79, 152, 212);
     padding: 0 60px;
     display: none;
 }
 
-.portfolio p{
+.portfolio h1{
+    font-size: 25px;
+    padding-right: 50px;
+    border-bottom: 1px solid rgb(79, 152, 212);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.racoon{
+    position: absolute;
+    width: 700px;
+    min-height: 200px;
+    height: auto;
+    background-color: rgba(253, 209, 243, 0.65);
+    right: 20;
+    top: 90px;
+}
+.racoon p{
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 15px;
+    font-family: century gothic;
 
+}
+.racoon pa{
+    font-size: 15px;
+    line-height: 6px;
+    font-family: century gothic;
+
+}
+
+.octupus{
+    position: absolute;
+    width: 700px;
+    min-height: 200px;
+    height: auto;
+    background-color: rgba(253, 209, 243, 0.65);
+    right: 20;
+    top: 385px;
+}
+.octupus p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-family: century gothic;
+}
+.octupus pa{
+    font-size: 15px;
+    line-height: 6px;
+    font-family: century gothic;
+}
+
+.shading{
+    position: absolute;
+    width: 700px;
+    min-height: 200px;
+    height: auto;
+    background-color: rgba(253, 209, 243, 0.65);
+    right: 20;
+    top: 620px;
+}
+.shading p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-family: century gothic;
+}
+.shading pa{
+    font-size: 15px;
+    line-height: 6px;
+    font-family: century gothic;
 }
